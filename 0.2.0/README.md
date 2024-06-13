@@ -56,13 +56,13 @@ pip install opencv-python numpy scikit-image scipy tqdm
 
 ***-method***: Stacking method to use (default: mean). Options: mean, median, trimmed_mean, robust_mean.
 
-***-method***: Weight for blur value in the frame selection process.
+***-blurw***: Weight for blur value in the frame selection process.
 
-***-method***: Weight for contrast value in the frame selection process..
+***-contrastw***: Weight for contrast value in the frame selection process..
 
-***-method***: Weight for SSIM value in the frame selection process..
+***-ssimw***: Weight for SSIM value in the frame selection process..
 
-***-method***: Weight for gradient magnitude in the frame selection process..
+***-gradientw***: Weight for gradient magnitude in the frame selection process..
 
 ***-entropyw***: Weight for entropy value in the frame selection process..
 
