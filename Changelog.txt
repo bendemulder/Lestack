@@ -1,0 +1,5 @@
+Changelog
+
+
+2024-06-12: V0.1.5 Initial release
+2024-06-13: V0.2.0 Added SSIM, Entropy and Gradient Magnitude functions to select best frames, updated progress bars. 

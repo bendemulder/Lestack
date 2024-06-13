@@ -2,7 +2,7 @@
 
 A command line stacking script for solar and planetary imaging.
 
-Version  0.2.0 - 20240613  
+Version  0.1.5 - 20240612  
 Author: Ben de Mulder.
 
 Lestack supports various stacking methods and can handle multiple video files in a directory.
@@ -55,16 +55,6 @@ pip install opencv-python numpy scikit-image scipy tqdm
 ***-dark***: Dark frame calibration image file.
 
 ***-method***: Stacking method to use (default: mean). Options: mean, median, trimmed_mean, robust_mean.
-
-***-method***: Weight for blur value in the frame selection process.
-
-***-method***: Weight for contrast value in the frame selection process..
-
-***-method***: Weight for SSIM value in the frame selection process..
-
-***-method***: Weight for gradient magnitude in the frame selection process..
-
-***-entropyw***: Weight for entropy value in the frame selection process..
 
 ## Examples
 Process a single video file:
