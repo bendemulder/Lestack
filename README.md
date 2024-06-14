@@ -2,7 +2,7 @@
 
 A command line stacking script for solar and planetary imaging.
 
-Version  0.2.0 - 20240613  
+Version  0.3.0 - 20240614  
 Author: Ben de Mulder.
 
 Lestack supports various stacking methods and can handle multiple video files in a directory.
